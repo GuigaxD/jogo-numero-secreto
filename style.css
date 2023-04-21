@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  :root{
+    --font-family: 'Montserrat', sans-serif;
+    --background-color: #00b9f7;
+    --primary-color: #ffffff;
+  }
+
+    body{
+    background-image: url(/img/fundo\ site.png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 1.5em;
+    gap: 0.7em;
+    margin: 0;
+    
+  }
+
+h1{
+    font-size: 3em;
+    border-radius: 0.1em;
+}
+h3{
+    font-size: 1.6em;
+    margin-top: 4rem;
+    text-shadow: 1px 1px 1px #000
+}
+
+.box{
+    border: solid 0.1em #fcff45;
+    display: inline-block;
+    font-size: 100px;
+    padding: 1.1rem;
+    margin: 0.1em;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.vocedisse{
+    text-shadow: 1px 1px 1px #000
+}
+.numerosecretomaior{
+    text-shadow: 1px 1px 1px #000
+}
+
+.logo_numero{
+  width: 50%;
+  height: 430px;
+
+}
+
+.logo_banana{
+  width: 2.2em;
+margin-right: 60.4em;
+margin-top: 3rem;
+} 
+
+#jogar-novamente{
+  display: block;
+
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.divisao{
+  display: flex;
+  justify-content: center;
+}
